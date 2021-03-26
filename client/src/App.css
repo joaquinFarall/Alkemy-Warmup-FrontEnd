@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+.form-container{
+  border: solid 0.25px lightgrey;
+  border-radius: 25px;
+  background: white;
+}
+
+.card{
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.home-post:hover{
+  transform: scale(1.1)
+}
+
+@media (max-width: 800px){
+  .btn-action{
+    width: auto !important;
+  }
+}
